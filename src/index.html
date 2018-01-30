@@ -1,0 +1,71 @@
+
+<html><head><title>Beehive Controller</title></head>
+<body>
+<h2>Beehive Heater</h2>
+<fieldset style="width:100%">
+    <legend>Current status</legend>
+    <form class="curstate" action="curstate" method="get" name="curstate">
+        <ul>
+                <label for="name">Temperature in beehive: #temp </label> C<br>
+                <label for="name">Heater status: #stat </label>
+        </ul>
+    </form>
+</fieldset>
+
+<fieldset style="width:100%">
+    <legend>Heater configuration</legend>
+    <form class="config" action="config" method="get" name="config">
+        <ul>
+
+                <label for="mintemp">Min. temperature:</label>
+                <input type="text" name="mintemp" value="#mintemp" size="2" maxlength="2"> C <br>
+
+                <label for="maxtemp">Max. temperature:</label>
+                <input type="text" name="maxtemp" value="#maxtemp" size="2" maxlength="2"> C <br>
+
+                <label for="freqt">Period of reading the temperature sensor:</label>
+                <input type="text" name="freqt" value="#freqt" size="6" maxlength="6"> sec	<br>
+
+		        <label for="freqs">Period of sending to the server:</label>
+                <input type="text" name="freqs" value="#freqs" size="6" maxlength="6"> sec <br> 
+
+                <button class="submit" type="submit">Save</button>
+        </ul>
+    </form>
+    <form class="onoff" action="onoff" method="get" name="onoff">
+        <ul>
+                <button class="on" type="submit" name="on">Heater On</button>
+	        <button class="off" type="submit" name="off">Heater Off</button>
+
+        </ul>
+    </form>
+
+</fieldset>
+
+<fieldset style="width:100%">
+    <legend>WiFi Communication</legend>
+    <form class="wificonfig" action="wificonfig" method="get" name="wificonfig">
+        <ul>
+
+                <label for="SSID_GW">WiFi gateway SSID:</label>
+                <input type="text" name="SSID_GW" value="#SSID_GW"><br>
+
+                <label for="PASS_GW">WiFi gateway password:</label>
+                <input type="text" name="PASS_GW" value="#PASS_GW"><br>
+
+                <label for="SSID_BC">SSID of this AP:</label>
+                <input type="text" name="SSID_BC" value="#SSID_BC"><br>
+
+                <label for="PASS_BC">Passwor of this AP:</label>
+                <input type="text" name="PASS_BC" value="#PASS_BC"><br> 
+
+                <button class="submit" type="submit">Save</button>
+        </ul>
+    </form>
+
+</fieldset>
+
+
+</body>
+</html>
+
