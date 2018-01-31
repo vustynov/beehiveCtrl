@@ -13,7 +13,7 @@ Directory **board** contains schematic and circuit board of device developed in 
 
 
 ### Source code
-Software of the project wroted on Lua based on [NodeMCU API] (https://nodemcu.readthedocs.io/en/master/).
+Software of the project wroted on Lua based on [NodeMCU API](https://nodemcu.readthedocs.io/en/master/).
 
 
 ### How to build
@@ -33,7 +33,7 @@ Software of the project wroted on Lua based on [NodeMCU API] (https://nodemcu.re
  - WiFi
  - float
 
-6. Install the NodeMCU firmware to microcontroller. Under Linux you can use the [esptool] (https://github.com/espressif/esptool) (read this [esp-linux-guide](http://www.whatimade.today/flashing-the-nodemcu-firmware-on-the-esp8266-linux-guide/) for that. Example of install:
+6. Install the NodeMCU firmware to microcontroller. Under Linux you can use the [esptool](https://github.com/espressif/esptool) (read this [esp-linux-guide](http://www.whatimade.today/flashing-the-nodemcu-firmware-on-the-esp8266-linux-guide/) for that. Example of install:
 ```
 $ sudo ./esptool-master/esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size 32m -fm dio 0x00000 ./nodemcu-master-10-modules-2017-09-25-18-22-58-float.bin
 ```
