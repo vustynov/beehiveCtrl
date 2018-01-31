@@ -8,7 +8,7 @@ The device is based on the microcontroller [ESP8266](http://www.esp8266.com) and
 
 
 ### Schems and Circuit board
-Directory [board](files/board) contains schematic and circuit board of device developed in [EAGLE](https://www.autodesk.com/products/eagle/overview). 
+Directory **board** contains schematic and circuit board of device developed in [EAGLE](https://www.autodesk.com/products/eagle/overview). 
 
 
 
