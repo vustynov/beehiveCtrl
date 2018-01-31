@@ -1,26 +1,22 @@
 # beehiveCtrl
 
 
-Brief
-=====
+### Brief
 This project can be interesting for amateur beekeeping. The project is designed to monitor the temperature and control the heating of beehives remotely. The device and software can also be used to control temperature control in other projects, such as an incubator.
 
 The device is based on the microcontroller ESP8266 (http://www.esp8266.com)  and firmware NodeMCU (https://en.wikipedia.org/wiki/NodeMCU).
 
 
-Schems and Circuit board
-========================
-Schem and circuit board developed in EAGLE (https://www.autodesk.com/products/eagle/overview)
+### Schems and Circuit board
+Dirdctory 'board' contains schematic and circuit board of device developed in EAGLE (https://www.autodesk.com/products/eagle/overview). 
 
 
-Source code
-===========
-The project based on nodemcu
+
+### Source code
+Software of the project wroted on Lua based on NodeMCU platform.
 
 
-How to build
-============
-
+### How to build
 1. Build the board according to the schematic diagram showed on board/BeeTermostat.sch
 2. Connect +12-18V power to X1 connector on your board without install the ESP8266 and check the correctness of the voltage at the points of the circuit where the power of the microcontroller must be approached. It should be the 3.3V.
 3. Power off your board, install the ESP8266 to the socket on the board, connect the JP3 (TX,RX,GND) connector to the computer via USB-TTL adapter. For example, you can use this device http://www.instructables.com/id/USB-to-TTL-Converter-PL2303HX/
@@ -46,8 +42,6 @@ $ sudo ./esptool-master/esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash
 8. Upload the lua scripts to your ESP8266 by using the ESPlorer or some another tools.
 9. Restart module, find the new WiFi access point 'beehive' and try to connect to this AP with password '11111111'.
 10. After that try to open http://192.168.2.1 in your browser. You sould see the page with configuration of your beehive controller.
-
-
 
 
 
