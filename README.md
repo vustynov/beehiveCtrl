@@ -18,9 +18,9 @@ Software of the project wroted on Lua based on [NodeMCU API] (https://nodemcu.re
 
 ### How to build
 1. Build the board according to the schematic diagram showed on **board/BeeTermostat.sch**
-2. Connect *+12-18V* power to *X1* connector on your board without install the ESP8266 and check the correctness of the voltage at the points of the circuit where the power of the microcontroller must be approached. It should be the "3.3V".
-3. Power off your board, install the ESP8266 to the socket on the board, connect the **JP3** (TX,RX,GND) connector to the computer via USB-TTL adapter. For example, you can use this [device](http://www.instructables.com/id/USB-to-TTL-Converter-PL2303HX/)
-4. Power on your board and check the WiFi new access points in you environment. You should discover a new access point with a default name (installed from [Expressif](https://www.espressif.com/) ).
+2. Connect *+12-18V* power to *X1* connector on your board without installing the ESP8266 and check the correctness of the voltage at the points of the circuit where the power of the microcontroller must be approached. It should be the "3.3V".
+3. Power off your board, install the ESP8266 to the socket on the board, and connect the **JP3** (TX,RX,GND) connector to the computer via USB-TTL adapter. For example, you can use [this device](http://www.instructables.com/id/USB-to-TTL-Converter-PL2303HX/) for that.
+4. Power on your board and check the WiFi new access points in you environment. You should discover a new access point with a default name (installed by [Expressif](https://www.espressif.com/) ).
 5. Build and download the NodeMCU firmware from the [nodemcu-build.com](https://nodemcu-build.com/) Choose the following modules:
  - DS18B20
  - file
