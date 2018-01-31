@@ -6,6 +6,11 @@ This project can be interesting for amateur beekeeping. The project is designed 
 
 The device is based on the microcontroller [ESP8266](http://www.esp8266.com) and firmware [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU).
 
+### Features
+ * Remote control the temperature in the hive via browser on your computer, smartphone, tablets.
+ * Remote set the parameters of heater (minimal and maximal temperature)
+ * Send current temperature and heater status to the [thingspeak.com](http://thingspeak.com) and builds the charts.
+ 
 
 ### Schems and Circuit board
 Directory **board** contains schematic and circuit board of device developed in [EAGLE](https://www.autodesk.com/products/eagle/overview). 
