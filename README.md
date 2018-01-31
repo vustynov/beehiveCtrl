@@ -45,8 +45,8 @@ $ sudo ./esptool-master/esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash
 
 7. Install the [ESPlorer](https://esp8266.ru/esplorer/) or some another tools for working with NodeMCU to your computer.
 8. Upload the lua scripts from directory **src** to your ESP microcontoller by using the ESPlorer or some another tools.
-9. Restart module, find the new WiFi access point *beehive* and try to connect to this AP with password *11111111*.
-10. After that try to open http://192.168.2.1 in your browser. You sould see the page with configuration of your beehive controller.
+9. Restart module, find new WiFi access point *beehive* and try to connect to this AP with password *11111111*.
+10. If connect is successfull, try to open http://192.168.2.1 in your browser. You sould see the page with configuration of your beehive controller.
 11. Try to change the temperature settings and check your heater.
 
 
