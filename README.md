@@ -10,7 +10,7 @@ The device is based on the microcontroller [ESP8266](http://www.esp8266.com) and
  * Remote control the temperature in the hive via browser on your computer, smartphone, tablets
  * Remote set the parameters of heater (minimal and maximal temperature)
  * Transfer of the temperature and the current status of the heater to the [thingspeak.com](http://thingspeak.com) every X minutes
- * Builds the charts on [thingspeak.com](http://thingspeak.com)
+ * Builds the [charts](https://thingspeak.com/channels/185299)
  
 
 ### Schems and Circuit board
