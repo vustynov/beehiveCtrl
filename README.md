@@ -11,6 +11,7 @@ The device is based on the microcontroller [ESP8266](http://www.esp8266.com) and
  * Remote set the parameters of heater (minimal and maximal temperature)
  * Transfer of the temperature and the current status of the heater to the [thingspeak.com](http://thingspeak.com) every X minutes
  * Builds the [charts](https://thingspeak.com/channels/185299)
+ * Once set up, the device can work offline, without internet connection.
  
 
 ### Schems and Circuit board
@@ -19,7 +20,7 @@ The scheme is very simple. It consists the power regulatots (LM7805 and 1117S33)
 
 
 ### Source code
-Software of the project wroted on Lua based on [NodeMCU API](https://nodemcu.readthedocs.io/en/master/).
+Directory **src** contains the source code of the project, wroted on Lua and based on [NodeMCU API](https://nodemcu.readthedocs.io/en/master/).
 
 
 ### How to build
